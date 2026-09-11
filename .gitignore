@@ -1,0 +1,6 @@
+node_modules/
+work/
+*.zip
+.DS_Store
+.env
+npm-debug.log*

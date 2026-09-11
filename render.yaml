@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: video-multiplier-ai
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: JOB_TTL_HOURS
+        value: 4
